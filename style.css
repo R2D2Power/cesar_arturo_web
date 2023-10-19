@@ -1,0 +1,72 @@
+:root {
+        --black: #171515;
+}
+body {
+        background-color: var(--black);
+}
+div {
+    border-style: none;
+    padding: 20px;
+}
+div.experience_container{
+    border-style: none;
+}
+section {
+    border-style: none;
+    padding: 25px 50px 75px 50px;
+    text-align: none;
+}
+h1 h2 h3 { 
+    font-family: "Press Start 2P", "Roboto", sans-serif;
+}
+h1 {
+        color: green;
+        text-align: center;
+}
+h2 {
+        color: green;
+        text-align: left;
+}
+.main_title {
+        background-color: var(--black);
+        color: green;
+        text-align: left;
+        border-style: none;
+        font-family: "Press Start 2P";
+}
+.section_title {
+    font-family: "Press Start 2P";
+}
+.experience_title {
+    font-family: "Press Start 2P";
+    font-size: 17px; 
+}
+p {
+        color: green;
+        border-style: none;
+        text-align: justify;
+        font-family: monospace;
+        font-size: 15px;
+}
+p.main_desc{
+
+}
+ul.service_list{
+    list-style-type:square;
+}
+ul.experience_list{
+    list-style-type:none;
+}
+li {
+    color: green;
+    font-family: monospace;
+    margin: 5px;
+    font-size: 15px;
+}
+
+/* Medias Querys */
+@media screen and (min-width: 992px){
+    .main_title{
+        text-align: center;
+    }
+}
